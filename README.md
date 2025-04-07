@@ -24,7 +24,7 @@ This project aims to be able to classify planes from the [FGCV dataset](https://
 
 Everything else is quite easy. Half of the [notebook](main.ipynb) is focused on preprocessing the data. After that we load our `yolo` model using the [weights](model_weights.pt) in the repo.
 
-
+You can see the model in action here: https://colab.research.google.com/drive/18nlsrKk2FIlxxOU16HT0RSUw-LVUwgGy?usp=sharing
 
 
 
