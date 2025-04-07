@@ -1,25 +1,30 @@
 <div align="center">
   <h1>FGCV Aircraft prediction</h1>
-  <p>
-    This project aims to be able to classify planes from the [FGCV dataset](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/)
-  </p>  
 </div>
-
-<br>
-<br>
 <br>
 
-<div>
-  <h2>Timeline ⏲️</h2>
+## Timeline ⏲️
 
-  > `0.1` `04/07/2025` - Created repository.
+> `0.1` `04/07/2025` - Created repository.
 
-  <h2>Content</h2>
+<br>
 
-  > `1` Features
+## File diagram
 
-  _to be continued_
-</div>
+```
+│  model_weights.pt    # The best model weights.
+│  main.ipynb          # The notebook that the model was trained with
+│  classes.csv         # To be added.
+```
+<br>
+  
+## Description
+
+This project aims to be able to classify planes from the [FGCV dataset](https://www.robots.ox.ac.uk/~vgg/data/fgvc-aircraft/). The model we use here is the `yolo11n` from the [ultralitycs library](https://docs.ultralytics.com/models/yolo11/). The dataset from [pytorch datasets](https://pytorch.org/vision/main/datasets.html#:~:text=FGVC%20Aircraft%20Dataset.). 
+
+Everything else is quite easy. Half of the [notebook](main.ipynb) is focused on preprocessing the data. After that we load our `yolo` model using the [weights](model_weights.pt) in the repo.
+
+
 
 
 
