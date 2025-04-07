@@ -12,6 +12,7 @@
 ## File diagram
 
 ```
+|  resources           # Folder with different files used for showing the model in action.
 │  model_weights.pt    # The best model weights.
 │  main.ipynb          # The notebook that the model was trained with
 │  classes.csv         # To be added.
