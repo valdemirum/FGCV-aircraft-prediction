@@ -1,6 +1,7 @@
 <div align="center">
   <h1>FGCV Aircraft prediction</h1>
 </div>
+<p>Live demo -> https://huggingface.co/spaces/valdemirum/aircraft-prediction</p>
 <br>
 
 ## Timeline ⏲️
